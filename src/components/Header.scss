@@ -1,0 +1,28 @@
+.header {
+    position: sticky;
+    background-color: var(--secondary-color);
+    height: 72px;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+    top: 0;
+    .logo {
+        color: var(--font-primary);
+        font-size: 25px;
+    }
+    .right-items {
+        display: flex;
+        .user-image,
+        .user-image img {
+            height: 38px;
+        }
+    }
+    .watchlist-link {
+        margin-right: 50px;
+        .badge {
+            margin-left: 5px;
+        }
+    }
+}

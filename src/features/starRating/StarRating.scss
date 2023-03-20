@@ -1,0 +1,28 @@
+.star-rating {
+    text-align: center;
+}
+.star-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 34px;
+    outline: none;
+  }
+
+  .star-button:focus {
+    outline: none;
+  }
+
+  .on {
+    color: #5799ef;
+  }
+  .off {
+    color: #ccc;
+  }
+
+.rate-close-button {
+    width: 300px;
+    background-color: #f5c518;
+    margin: auto;
+}

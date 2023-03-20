@@ -1,0 +1,33 @@
+.watchlist-container {
+  .movie-item {
+      background-color: #F0F0F0;
+      border-bottom: 1px solid #cccccc;
+      padding: 5px 5px;
+      width: 800px;
+      .card-inner {
+          position: relative;
+          .add-watchlist {
+              position: absolute;
+              left: 0;
+          }
+          .card-rating {
+              margin-bottom: 40px;
+          }
+          img {
+            width: 180px;
+            height: auto;
+          }
+          .card-title {
+            font-size: 20px;
+            padding-top: 15px;
+            color: #F5C518;
+          }
+          .card-content {
+            color: black;
+            min-height: 100%;
+            width: 75%;
+            float: right;
+          }
+      }
+    }
+}
